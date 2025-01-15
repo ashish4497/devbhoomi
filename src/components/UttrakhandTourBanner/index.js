@@ -1,5 +1,10 @@
 import React from "react";
 import "./style.css";
+import package01 from "../../assets/media/uttarakhand-tours/upcoming-tours/christmas-packages.jpg";
+import package0 from "../../assets/media/uttarakhand-tours/upcoming-tours/tungnath-trek.jpg";
+import package02 from "../../assets/media/uttarakhand-tours/upcoming-tours/new-year-packages.jpg";
+import package03 from "../../assets/media/uttarakhand-tours/upcoming-tours/kedarkantha-trek.jpg";
+import package04 from "../../assets/media/uttarakhand-tours/upcoming-tours/republic-day-packages.jpg";
 
 const UttrakhandTourBanner = () => {
   return (
@@ -44,7 +49,7 @@ const UttrakhandTourBanner = () => {
                     <div className="package-image">
                       <img
                         className="w-100"
-                        src="assets/media/uttarakhand-tours/upcoming-tours/christmas-packages.jpg"
+                        src={package01}
                         alt="Christmas Tour Packages"
                         loading="lazy"
                       />
@@ -71,7 +76,7 @@ const UttrakhandTourBanner = () => {
                     <div className="package-image">
                       <img
                         className="w-100"
-                        src="assets/media/uttarakhand-tours/upcoming-tours/tungnath-trek.jpg"
+                        src={package0}
                         alt="Tungnath Chandrashila Trek"
                         loading="lazy"
                       />
@@ -98,7 +103,7 @@ const UttrakhandTourBanner = () => {
                     <div className="package-image">
                       <img
                         className="w-100"
-                        src="assets/media/uttarakhand-tours/upcoming-tours/new-year-packages.jpg"
+                        src={package02}
                         alt="New Year Packages"
                         loading="lazy"
                       />
@@ -125,7 +130,7 @@ const UttrakhandTourBanner = () => {
                     <div className="package-image">
                       <img
                         className="w-100"
-                        src="assets/media/uttarakhand-tours/upcoming-tours/kedarkantha-trek.jpg"
+                        src={package03}
                         alt="Kedarkantha Winter Trek"
                         loading="lazy"
                       />
@@ -152,7 +157,7 @@ const UttrakhandTourBanner = () => {
                     <div className="package-image">
                       <img
                         className="w-100"
-                        src="assets/media/uttarakhand-tours/upcoming-tours/republic-day-packages.jpg"
+                        src={package04}
                         alt="Republic Day Packages 2025"
                         loading="lazy"
                       />

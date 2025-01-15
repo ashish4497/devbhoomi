@@ -1,0 +1,80 @@
+.banner {
+  background: url(../../assets/media/uttarakhand-tour-packages-banner.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+}
+.banner2 {
+  background: url(../../assets/media/uttarakhand-tour-banner2.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+}
+.banner-char-dham {
+  background: url(../../assets/media/char-dham-yatra-banner.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+  min-height: 600px;
+}
+
+.banner-content {
+  padding-top: 80px;
+  padding-bottom: 30px;
+  color: #fff;
+}
+.overlay {
+  background: rgba(0, 0, 0, 0.2);
+  width: 100%;
+  min-height: 600px;
+}
+.banner-content-h2 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.banner-content-h1 {
+  font-size: 58px;
+  font-weight: 800;
+  line-height: 1.2;
+  margin: 20px 0;
+}
+.banner-content-p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.4;
+  width: 75%;
+}
+.tour-packages .package-image {
+  padding: 5px;
+  margin: 10px;
+  background-color: #000;
+}
+.tour-packages-slider {
+  margin-bottom: -210px;
+}
+.tour-packages .package-small-title {
+  font-size: 14px;
+  font-weight: 400;
+  min-height: 20px;
+  color: #fff;
+}
+.tour-packages .package-duration {
+  color: var(--yellow-color);
+  text-align: center;
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.tour-packages .package-item {
+  position: relative;
+  overflow: hidden;
+}
+

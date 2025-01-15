@@ -1672,12 +1672,12 @@ body.no-scroll {
     scroll-snap-align: start;
   }
   .banner {
-  /* background: url(../media/uttarakhand-tour-packages-mobile-banner.jpg); */
+  background: url(./assets/media/uttarakhand-tour-packages-mobile-banner.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
  .banner2 {
-  /* background: url(../media/uttarakhand-tour-packages-mobile-banner.jpg); */
+  background: url(./assets/media/uttarakhand-tour-packages-mobile-banner.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -1694,7 +1694,7 @@ body.no-scroll {
     flex-wrap: nowrap;
   }
   .hero {
-  /* background: url(../media/uttarakhand-tour-packages-mobile-banner.jpg); */
+  background: url(./assets/media/uttarakhand-tour-packages-mobile-banner.jpg);
  
   background-attachment: fixed;
 }
