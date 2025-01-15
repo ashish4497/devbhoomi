@@ -1,0 +1,24 @@
+.section-02 {
+  background-color: #212f3c;
+  color: #fff;
+  padding: 50px 0;
+}
+.blog-sidebar-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+}
+.blog-sidebar-item-img-box {
+  width: 28%;
+  height: 100px;
+}
+.blog-sidebar-item {
+  padding: 15px 0;
+  border-bottom: 1px dashed #0003;
+}
+
+.col-4 {
+  flex: 0 0 33.333%;
+  max-width: 33.333%;
+}

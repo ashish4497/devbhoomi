@@ -1,0 +1,100 @@
+.section-2 {
+  background-color: #000;
+  color: #fff;
+  padding: 60px 0;
+
+}
+.section-02 {
+  background-color: #212f3c;
+  color: #fff;
+  padding: 50px 0;
+}
+
+.package-image {
+  padding: 15px;
+  background: var(--light-yellow-color);
+  margin: 20px;
+  border-radius: 4px;
+}
+.package-image img {
+  border-radius: 4px;
+}
+.package-title {
+  font-size: 20px;
+  font-weight: 600;
+  padding-top: 5px;
+  text-transform: capitalize;
+}
+.packages-btn-wrapper {
+  margin-top: 20px;
+}
+.packages-btn {
+ padding: 20px 50px;
+ background: var(--light-yellow-color);
+  color: #000;
+  border-radius: 10px;
+  border: 4px double #fff;
+  transition: all 0.3s ease;
+  position: relative;
+  top: 0;
+  font-size: 25px;
+  text-align: center;
+}
+.packages-btn-1 {
+  padding: 10px 10px;
+  background: var(--light-yellow-color);
+  color: #000;
+  border-radius: 5px;
+  border: 4px double #000;
+  transition: all 0.3s ease;
+  position: relative;
+  top: 0;
+  font-size: 13px;
+  text-align: center;
+}
+.about-me-btn {
+  padding: 10px 10px;
+  margin-right: 5px;
+  background: var(--light-yellow-color);
+  color: #000;
+  border-radius: 10px;
+  border: 4px double #000;
+  transition: all 0.3s ease;
+  position: relative;
+  top: 0;
+  font-size: 20px;
+  text-align: center;
+}
+.big-button-yellow {
+  padding: 20px 50px;
+  background: var(--light-yellow-color);
+  color: #000;
+  border-radius: 10px;
+  border: 4px double #000;
+  transition: all 0.3s ease;
+  position: relative;
+  top: 0;
+  font-size: 25px;
+  text-align: center;
+}
+.packages-btn-2 {
+  padding: 10px 10px;
+  background: var(--light-yellow-color);
+  color: #000;
+  border-radius: 5px;
+  border: 4px double #000;
+  transition: all 0.3s ease;
+  position: relative;
+  top: 0;
+  font-size: 20px;
+  text-align: center;
+  margin-right: 5px;
+}
+.packages-btn:hover {
+  background-color: #ffffff;
+  color: #000;
+  border-color: var(--yellow-color);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  top: -5px;
+}

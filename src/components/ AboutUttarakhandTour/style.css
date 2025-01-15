@@ -1,0 +1,34 @@
+.info-board {
+  width: 100%;
+  background: var(--light-yellow-color);
+  padding: 5px;
+  top: 100px;
+}
+
+#sec-9 {
+  position: relative;
+}
+.info-board .info-table {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.info-board .info-table th,
+.info-board .info-table td {
+  padding: 5px;
+  border: 1px solid #000;
+}
+.table-active { 
+  background-color: #1bdd00;
+  
+}
+.info-board .info-table th {
+  background-color: #000;
+  color: #fff;
+  text-align: left;
+
+}
+
+.info-board .info-table td:first-child {
+  font-weight: bold;
+}
