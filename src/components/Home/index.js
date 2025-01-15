@@ -10,6 +10,10 @@ import TourPacks from "../TourPacks";
 import CharDhamYatra from "../SpiritualJourney";
 import InquiryForm from "../InquiryForm";
 import AboutUttrakhand from "../ AboutUttarakhandTour";
+import UttarakhandBlogsSection from "../TourArticles";
+import TripAdvisorSection from "../AdvisorTestimonials";
+import WhyChooseUsSection from "../ExploreAdventure";
+import Footer from "../Footer";
 
 export default function HeroSection() {
   return (
@@ -94,6 +98,11 @@ export default function HeroSection() {
       <CharDhamYatra />
       <InquiryForm />
       <AboutUttrakhand />
+      <CallbackForm />
+      <UttarakhandBlogsSection />
+      <TripAdvisorSection />
+      <WhyChooseUsSection />
+      <Footer />
     </>
   );
 }

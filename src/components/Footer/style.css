@@ -1,0 +1,138 @@
+.text-size {
+  font-size: 13px;
+}
+
+.text-decoration {
+  text-decoration: underline;
+}
+footer .col-3 {
+  padding: 0 10px 20px 10px;
+}
+.footer-contact {
+  padding: 10px;
+}
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 60px 0;
+}
+
+.footer-menu {
+  list-style: none;
+}
+.footer-heading {
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.footer-menu li {
+  position: relative;
+}
+.footer-menu li::after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 2px;
+  background-color: var(--yellow-color);
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: all 0.2s ease;
+}
+.footer-menu li {
+  font-size: 14px;
+  margin-bottom: 5px;
+  padding-left: 20px;
+}
+.footer-menu li:hover {
+  color: var(--orange-color);
+  cursor: pointer;
+}
+.footer-menu li:hover::after {
+  height: 100%;
+}
+footer input {
+  font-size: 15px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  background: #fff;
+  color: #000;
+  border: 4px double var(--orange-color);
+}
+.submit-btn {
+  background: var(--yellow-color);
+  color: #000;
+  border-radius: 4px;
+  border: 4px double #fff;
+  font-weight: 600;
+}
+.submit-btn:hover {
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+}
+.footer-contact {
+  list-style: none;
+}
+.footer-contact li a {
+  padding: 10px;
+  text-decoration: none;
+  padding: 10px 15px;
+  background-color: var(--yellow-color);
+  position: relative;
+  top: 0;
+  transition: all 0.2s ease-in-out;
+}
+.__line {
+  background-color: var(--light-yellow-color);
+  opacity: 0.2;
+  height: 1px;
+  border: none;
+  width: 50%;
+  margin: 80px auto 20px;
+}
+.footer-contact li a:hover {
+  top: -5px;
+}
+.below-footer {
+  padding: 30px 0;
+}
+.below-footer img {
+  width: 240px;
+}
+.affiliated-logo {
+  width: 200px !important;
+  height: 160px;
+  object-fit: contain;
+  object-position: center;
+}
+.affiliated-logo-container {
+  width: 80% !important;
+  margin: 80px auto 20px;
+}
+.copyright {
+  background-color: #000;
+  padding: 20px 0;
+}
+.copyright ul {
+  list-style: none;
+}
+.copyright ul li {
+  position: relative;
+  padding: 2px 5px;
+}
+.copyright ul li a {
+  text-decoration: none;
+  padding: 5px;
+}
+.copyright ul li::after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 40%;
+  right: 0px;
+  background-color: var(--light-yellow-color);
+  top: 50%;
+  transform: translateY(-50%);
+}
