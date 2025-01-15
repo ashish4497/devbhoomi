@@ -78,3 +78,22 @@
   overflow: hidden;
 }
 
+.packages-wrapper {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  flex-wrap: nowrap;
+}
+
+.new-tour-page .tour-content .col-8,
+.new-tour-page .tour-content .col-4 {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.package-item {
+  flex: 0 0 auto;
+  max-width: 100%;
+  scroll-snap-align: start;
+}

@@ -4,6 +4,8 @@ import UttrakhandTourPage from "./pages/ UttarakhandTour";
 import HeroSection from "./pages/Home";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
+import $ from "jquery";
+window.$ = $;
 function App() {
   return (
     <>

@@ -5,8 +5,69 @@ import package0 from "../../assets/media/uttarakhand-tours/upcoming-tours/tungna
 import package02 from "../../assets/media/uttarakhand-tours/upcoming-tours/new-year-packages.jpg";
 import package03 from "../../assets/media/uttarakhand-tours/upcoming-tours/kedarkantha-trek.jpg";
 import package04 from "../../assets/media/uttarakhand-tours/upcoming-tours/republic-day-packages.jpg";
+import Slider from "react-slick";
+// import "slick-carousel/slick/slick.css";
+// import "slick-carousel/slick/slick-theme.css";
+
+const packages = [
+  {
+    img: package01,
+    title: "Christmas Tour Packages",
+    description:
+      "Plan your Christmas either at Mussoorie, Chopta, Auli, Rishikesh, Nainital, or in Corbett.",
+  },
+  {
+    img: package0,
+    title: "Tungnath Chandrashila Trek",
+    description:
+      "Plan a short trek tour to the world's highest Shiva Temple with the mesmerizing views of the Himalayas.",
+  },
+  {
+    img: package02,
+    title: "New Year Packages",
+    description:
+      "Plan your New Year eve at Mussoorie, Chopta, Auli, Rishikesh, Nainital, or in Corbett.",
+  },
+  {
+    img: package03,
+    title: "Kedarkantha Winter Trek",
+    description:
+      "Witness a live snowfall and investigate the snow trails of Kedarkantha's winter paradise summit.",
+  },
+  {
+    img: package04,
+    title: "Republic Day Packages 2025",
+    description:
+      "Plan a short escape for your Republic day off and hide at Mussoorie, Rishikesh, Nainital, or in Corbett.",
+  },
+];
 
 const UttrakhandTourBanner = () => {
+  const settings = {
+    dots: true,
+    infinite: true,
+    slidesToShow: 4,
+    slidesToScroll: 4,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    arrows: false,
+    // responsive: [
+    //   {
+    //     breakpoint: 1024,
+    //     settings: {
+    //       slidesToShow: 2,
+    //       slidesToScroll: 1,
+    //     },
+    //   },
+    //   {
+    //     breakpoint: 768,
+    //     settings: {
+    //       slidesToShow: 1,
+    //       slidesToScroll: 1,
+    //     },
+    //   },
+    // ],
+  };
   return (
     <section className="banner">
       <div className="overlay">
@@ -38,149 +99,41 @@ const UttrakhandTourBanner = () => {
               Discover The Upcoming Holiday Packages For Uttarakhand
             </h2>
           </div>
-
-          {/* Upcoming holidays carousel */}
-          <div className="row w-100">
+          {/* Upcoming  carousel */}
+          <div className="ro">
             <div className="col-12">
-              <div className="packages-wrapper d-flex flex-wrap tour-packages-slider owl-carousel owl-theme">
-                {/* Item 1 */}
-                <div className="package-item col-12">
-                  <div className="package-card">
-                    <div className="package-image">
-                      <img
-                        className="w-100"
-                        src={package01}
-                        alt="Christmas Tour Packages"
-                        loading="lazy"
-                      />
-                      <h4
-                        className="text-center font-black mt-20"
-                        style={{ textDecoration: "underline" }}
-                      >
-                        Christmas Tour Packages
-                      </h4>
-                      <p
-                        className="text-center font-black"
-                        style={{ fontSize: "12px" }}
-                      >
-                        Plan your Christmas either at Mussoorie, Chopta, Auli,
-                        Rishikesh, Nainital, or in Corbett.
-                      </p>
+              <Slider {...settings}>
+                <div>
+                  {packages.map((pkg, index) => (
+                    <div key={index} className="package-item">
+                      <div className="package-card">
+                        <div className="package-image">
+                          <img
+                            className="w-100"
+                            src={pkg.img}
+                            alt={pkg.title}
+                            loading="lazy"
+                          />
+                          <h4
+                            className="text-center font-black mt-20"
+                            style={{ textDecoration: "underline" }}
+                          >
+                            {pkg.title}
+                          </h4>
+                          <p
+                            className="text-center font-black"
+                            style={{ fontSize: "12px" }}
+                          >
+                            {pkg.description}
+                          </p>
+                        </div>
+                      </div>
                     </div>
-                  </div>
+                  ))}
                 </div>
-
-                {/* Item 2 */}
-                <div className="package-item col-12">
-                  <div className="package-card">
-                    <div className="package-image">
-                      <img
-                        className="w-100"
-                        src={package0}
-                        alt="Tungnath Chandrashila Trek"
-                        loading="lazy"
-                      />
-                      <h4
-                        className="text-center font-black mt-20"
-                        style={{ textDecoration: "underline" }}
-                      >
-                        Tungnath Chandrashila Trek
-                      </h4>
-                      <p
-                        className="text-center font-black"
-                        style={{ fontSize: "12px" }}
-                      >
-                        Plan a short trek tour to the world's highest Shiva
-                        Temple with the mesmerizing views of the Himalayas.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                {/* Item 3 */}
-                <div className="package-item col-12">
-                  <div className="package-card">
-                    <div className="package-image">
-                      <img
-                        className="w-100"
-                        src={package02}
-                        alt="New Year Packages"
-                        loading="lazy"
-                      />
-                      <h4
-                        className="text-center font-black mt-20"
-                        style={{ textDecoration: "underline" }}
-                      >
-                        New Year Packages
-                      </h4>
-                      <p
-                        className="text-center font-black"
-                        style={{ fontSize: "12px" }}
-                      >
-                        Plan your New Year eve at Mussoorie, Chopta, Auli,
-                        Rishikesh, Nainital, or in Corbett.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                {/* Item 4 */}
-                <div className="package-item col-12">
-                  <div className="package-card">
-                    <div className="package-image">
-                      <img
-                        className="w-100"
-                        src={package03}
-                        alt="Kedarkantha Winter Trek"
-                        loading="lazy"
-                      />
-                      <h4
-                        className="text-center font-black mt-20"
-                        style={{ textDecoration: "underline" }}
-                      >
-                        Kedarkantha Winter Trek
-                      </h4>
-                      <p
-                        className="text-center font-black"
-                        style={{ fontSize: "12px" }}
-                      >
-                        Witness a live snowfall and investigate the snow trails
-                        of Kedarkantha's winter paradise summit.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                {/* Item 5 */}
-                <div className="package-item col-12">
-                  <div className="package-card">
-                    <div className="package-image">
-                      <img
-                        className="w-100"
-                        src={package04}
-                        alt="Republic Day Packages 2025"
-                        loading="lazy"
-                      />
-                      <h4
-                        className="text-center font-black mt-20"
-                        style={{ textDecoration: "underline" }}
-                      >
-                        Republic Day Packages 2025
-                      </h4>
-                      <p
-                        className="text-center font-black"
-                        style={{ fontSize: "12px" }}
-                      >
-                        Plan a short escape for your Republic day off and hide
-                        at Mussoorie, Rishikesh, Nainital, or in Corbett.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              </Slider>
             </div>
           </div>
-          {/* Upcoming holidays carousel :END */}
         </div>
       </div>
     </section>
