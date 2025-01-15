@@ -1,19 +1,19 @@
 import React from "react";
 import "./style.css";
 import Logo from "../../assets/media/logo.png";
-import CategoriesSection from "../Categories";
-import CallbackForm from "../CallbackForm";
-import UttarakhandTourPackages from "../AllSeasonPackages";
-import DestinationExpert from "../DestinationExpert";
-import WeekendGateways from "../WeekendGateways";
-import TourPacks from "../TourPacks";
-import CharDhamYatra from "../SpiritualJourney";
-import InquiryForm from "../InquiryForm";
-import AboutUttrakhand from "../ AboutUttarakhandTour";
-import UttarakhandBlogsSection from "../TourArticles";
-import TripAdvisorSection from "../AdvisorTestimonials";
-import WhyChooseUsSection from "../ExploreAdventure";
-import Footer from "../Footer";
+import CategoriesSection from "../../components/Categories";
+import CallbackForm from "../../components/CallbackForm";
+import UttarakhandTourPackages from "../../components/AllSeasonPackages";
+import DestinationExpert from "../../components/DestinationExpert";
+import WeekendGateways from "../../components/WeekendGateways";
+import TourPacks from "../../components/TourPacks";
+import CharDhamYatra from "../../components/SpiritualJourney";
+import InquiryForm from "../../components/InquiryForm";
+import AboutUttrakhand from "../../components/ AboutUttarakhandTour";
+import UttarakhandBlogsSection from "../../components/TourArticles";
+import TripAdvisorSection from "../../components/AdvisorTestimonials";
+import WhyChooseUsSection from "../../components/ExploreAdventure";
+import Footer from "../../components/Footer";
 
 export default function HeroSection() {
   return (

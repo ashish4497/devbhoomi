@@ -21,31 +21,31 @@ export default function Header() {
                 { name: "Home", link: "https://devbhumitourism.com/" },
                 {
                   name: "Uttarakhand Tour",
-                  link: "https://devbhumitourism.com/uttarakhand-tour-packages/",
+                  // link: "/tour",
                 },
                 {
                   name: "Char Dham Yatra",
-                  link: "https://devbhumitourism.com/char-dham-yatra/",
+                  // link: "https://devbhumitourism.com/char-dham-yatra/",
                 },
                 {
                   name: "Discover",
-                  link: "https://devbhumitourism.com/discover-uttarakhand/",
+                  // link: "https://devbhumitourism.com/discover-uttarakhand/",
                 },
                 {
                   name: "Destinations",
-                  link: "https://devbhumitourism.com/uttarakhand-tourist-places/",
+                  // link: "https://devbhumitourism.com/uttarakhand-tourist-places/",
                 },
                 {
                   name: "Blogs",
-                  link: "https://devbhumitourism.com/uttarakhand-travel-guide/",
+                  // link: "https://devbhumitourism.com/uttarakhand-travel-guide/",
                 },
                 {
                   name: "About Us",
-                  link: "https://devbhumitourism.com/about-us/",
+                  // link: "https://devbhumitourism.com/about-us/",
                 },
                 {
                   name: "Contact Us",
-                  link: "https://devbhumitourism.com/contact-us/",
+                  // link: "https://devbhumitourism.com/contact-us/",
                 },
               ].map((menu, index) => (
                 <li key={index}>
