@@ -1,12 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import Logo from "../../assets/media/logo-head.webp";
 import Menu from "../../navigation/NavBar";
 import MobileMenu from "../../navigation/MobileMenu";
 import "./style.css";
 
 const Header = () => {
+  const [isMenuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!isMenuOpen);
+  };
+
   return (
-    <header>
+    <header className={isMenuOpen ? "show" : ""}>
       <div className="container d-flex justify-between align-center">
         {/* Logo Section */}
         <div className="flex-20">
@@ -17,7 +23,7 @@ const Header = () => {
 
         {/* Navigation Menu */}
         <div className="flex-60 d-flex justify-center menu-container">
-          <nav>
+          <nav className="desktop-menu">
             <Menu />
           </nav>
         </div>
@@ -30,7 +36,12 @@ const Header = () => {
         </div>
 
         {/* Hamburger Menu */}
-        <div className="hamburger-menu">
+        <div
+          className={`hamburger-menu ${isMenuOpen ? "active" : ""}`}
+          onClick={toggleMenu}
+          role="button"
+          tabIndex={0}
+        >
           <span></span>
           <span></span>
           <span></span>
@@ -38,7 +49,11 @@ const Header = () => {
       </div>
 
       {/* Mobile Menu */}
-      <MobileMenu />
+      {isMenuOpen && (
+        <div className="mobile-menu-wrapper">
+          <MobileMenu toggleMenu={toggleMenu} />
+        </div>
+      )}
     </header>
   );
 };
