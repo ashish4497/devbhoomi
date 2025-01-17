@@ -6,8 +6,6 @@ import package02 from "../../assets/media/uttarakhand-tours/upcoming-tours/new-y
 import package03 from "../../assets/media/uttarakhand-tours/upcoming-tours/kedarkantha-trek.jpg";
 import package04 from "../../assets/media/uttarakhand-tours/upcoming-tours/republic-day-packages.jpg";
 import Slider from "react-slick";
-// import "slick-carousel/slick/slick.css";
-// import "slick-carousel/slick/slick-theme.css";
 
 const packages = [
   {

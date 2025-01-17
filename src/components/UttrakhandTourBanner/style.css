@@ -52,48 +52,4 @@
   line-height: 1.4;
   width: 75%;
 }
-.tour-packages .package-image {
-  padding: 5px;
-  margin: 10px;
-  background-color: #000;
-}
-.tour-packages-slider {
-  margin-bottom: -210px;
-}
-.tour-packages .package-small-title {
-  font-size: 14px;
-  font-weight: 400;
-  min-height: 20px;
-  color: #fff;
-}
-.tour-packages .package-duration {
-  color: var(--yellow-color);
-  text-align: center;
-  font-size: 13px;
-  font-weight: 600;
-  margin-bottom: 8px;
-}
-.tour-packages .package-item {
-  position: relative;
-  overflow: hidden;
-}
 
-.packages-wrapper {
-  display: flex;
-  overflow-x: auto;
-  scroll-snap-type: x mandatory;
-  scroll-behavior: smooth;
-  flex-wrap: nowrap;
-}
-
-.new-tour-page .tour-content .col-8,
-.new-tour-page .tour-content .col-4 {
-  flex: 0 0 100%;
-  max-width: 100%;
-}
-
-.package-item {
-  flex: 0 0 auto;
-  max-width: 100%;
-  scroll-snap-align: start;
-}
