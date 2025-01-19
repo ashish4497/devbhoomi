@@ -5,7 +5,6 @@ import package0 from "../../assets/media/uttarakhand-tours/upcoming-tours/tungna
 import package02 from "../../assets/media/uttarakhand-tours/upcoming-tours/new-year-packages.jpg";
 import package03 from "../../assets/media/uttarakhand-tours/upcoming-tours/kedarkantha-trek.jpg";
 import package04 from "../../assets/media/uttarakhand-tours/upcoming-tours/republic-day-packages.jpg";
-import Slider from "react-slick";
 
 const packages = [
   {
@@ -41,31 +40,6 @@ const packages = [
 ];
 
 const UttrakhandTourBanner = () => {
-  const settings = {
-    dots: true,
-    infinite: true,
-    slidesToShow: 4,
-    slidesToScroll: 4,
-    autoplay: true,
-    autoplaySpeed: 2000,
-    arrows: false,
-    // responsive: [
-    //   {
-    //     breakpoint: 1024,
-    //     settings: {
-    //       slidesToShow: 2,
-    //       slidesToScroll: 1,
-    //     },
-    //   },
-    //   {
-    //     breakpoint: 768,
-    //     settings: {
-    //       slidesToShow: 1,
-    //       slidesToScroll: 1,
-    //     },
-    //   },
-    // ],
-  };
   return (
     <section className="banner">
       <div className="overlay">
@@ -100,36 +74,34 @@ const UttrakhandTourBanner = () => {
           {/* Upcoming  carousel */}
           <div className="ro">
             <div className="col-12">
-              <Slider {...settings}>
-                <div>
-                  {packages.map((pkg, index) => (
-                    <div key={index} className="package-item">
-                      <div className="package-card">
-                        <div className="package-image">
-                          <img
-                            className="w-100"
-                            src={pkg.img}
-                            alt={pkg.title}
-                            loading="lazy"
-                          />
-                          <h4
-                            className="text-center font-black mt-20"
-                            style={{ textDecoration: "underline" }}
-                          >
-                            {pkg.title}
-                          </h4>
-                          <p
-                            className="text-center font-black"
-                            style={{ fontSize: "12px" }}
-                          >
-                            {pkg.description}
-                          </p>
-                        </div>
+              <div>
+                {packages.map((pkg, index) => (
+                  <div key={index} className="package-item">
+                    <div className="package-card">
+                      <div className="package-image">
+                        <img
+                          className="w-100"
+                          src={pkg.img}
+                          alt={pkg.title}
+                          loading="lazy"
+                        />
+                        <h4
+                          className="text-center font-black mt-20"
+                          style={{ textDecoration: "underline" }}
+                        >
+                          {pkg.title}
+                        </h4>
+                        <p
+                          className="text-center font-black"
+                          style={{ fontSize: "12px" }}
+                        >
+                          {pkg.description}
+                        </p>
                       </div>
                     </div>
-                  ))}
-                </div>
-              </Slider>
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
         </div>

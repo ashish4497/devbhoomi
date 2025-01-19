@@ -16,7 +16,7 @@ const Header = () => {
       <div className="container d-flex justify-between align-center">
         {/* Logo Section */}
         <div className="flex-20">
-          <a className="logo" href="https://devbhumitourism.com/">
+          <a className="logo" href="/">
             <img src={Logo} alt="Uttarakhand Tour Packages" loading="lazy" />
           </a>
         </div>
