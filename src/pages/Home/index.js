@@ -172,6 +172,7 @@ const buttonsData = [
     link: "https://devbhumitourism.com/uttarakhand-tour-packages-from-kathgodam/",
   },
 ];
+const pacakagebtn = "All Uttarakhand Tour Packages";
 
 // ==============
 const weekEndTourData = [
@@ -297,6 +298,7 @@ export default function HeroSection() {
         tours={toursData}
         headingData={headingData}
         buttonsData={buttonsData}
+        pacakagebtn={pacakagebtn}
       />
       <DestinationExpert />
       <WeekendGateways

@@ -52,4 +52,38 @@
   line-height: 1.4;
   width: 75%;
 }
+/* Default for larger screens (desktop) */
+.container-r {
+  width: 1240px;
+  margin: 0 auto; 
+  padding: 0 20px; 
+}
 
+
+@media (max-width: 1024px) {
+  .container-r {
+    width: 90%; 
+    max-width: 100%; 
+  }
+}
+
+@media (max-width: 464px) {
+  .container-r {
+    width: 100%; 
+    padding: 0 10px; 
+  }
+}
+/* ================== */
+.card-container {
+  position: absolute;
+}
+.carousel-slider {
+  display: flex;
+  align-items: center;
+}
+.package-item {
+width: 310px;
+}
+.react-multi-carousel-dot-list{
+  bottom: -8% !important;
+}

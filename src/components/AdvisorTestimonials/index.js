@@ -4,6 +4,48 @@ import tripAdvisor from "../../assets/media/tripadvisor.png";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
+const carouselSettings = {
+  additionalTransfrom: 0,
+  arrows: true,
+  autoPlay: true,
+  autoPlaySpeed: 3000,
+  centerMode: false,
+  className: "",
+  containerClass: "container",
+  dotListClass: "",
+  draggable: true,
+  focusOnSelect: false,
+  infinite: true,
+  itemClass: "",
+  keyBoardControl: true,
+  minimumTouchDrag: 80,
+  pauseOnHover: true,
+  renderArrowsWhenDisabled: false,
+  renderButtonGroupOutside: false,
+  renderDotsOutside: true,
+  responsive: {
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 1,
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 1,
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 1,
+    },
+  },
+  rewind: false,
+  rewindWithAnimation: false,
+  rtl: false,
+  shouldResetAutoplay: true,
+  showDots: true,
+  sliderClass: "",
+  slidesToSlide: 1,
+  swipeable: true,
+};
 const Testimonial = ({ name, text }) => {
   return (
     <div className="testimonial">
@@ -32,57 +74,7 @@ const TripAdvisorSection = () => {
 
         {/* Testimonials Slider */}
         <div className="row w-100">
-          <Carousel
-            additionalTransfrom={0}
-            arrows
-            autoPlay={true}
-            autoPlaySpeed={3000}
-            centerMode={false}
-            className=""
-            containerClass="container"
-            dotListClass=""
-            draggable
-            focusOnSelect={false}
-            infinite
-            itemClass=""
-            keyBoardControl
-            minimumTouchDrag={80}
-            pauseOnHover
-            renderArrowsWhenDisabled={false}
-            renderButtonGroupOutside={false}
-            renderDotsOutside
-            responsive={{
-              desktop: {
-                breakpoint: {
-                  max: 3000,
-                  min: 1024,
-                },
-                items: 1,
-              },
-              mobile: {
-                breakpoint: {
-                  max: 464,
-                  min: 0,
-                },
-                items: 1,
-              },
-              tablet: {
-                breakpoint: {
-                  max: 1024,
-                  min: 464,
-                },
-                items: 1,
-              },
-            }}
-            rewind={false}
-            rewindWithAnimation={false}
-            rtl={false}
-            shouldResetAutoplay={true}
-            showDots
-            sliderClass=""
-            slidesToSlide={1}
-            swipeable
-          >
+          <Carousel {...carouselSettings}>
             <Testimonial
               name="Mr. Saish Narvekar, Mumbai"
               text="If you plan to visit Uttarakhand, there cannot be a better tour operator than Mr. Lalit Mohan. He is a 100% professional and provides the best hotels at affordable prices. Being a local, he has tie-ups all over Uttarakhand. We had booked a 7 nights and 8 days tour to Mussoorie, Rishikesh, Nainital, Jim Corbett and Haridwar. While on tour, we didn't like the hotel at Nainital. Mr. Lalit Mohan was so humble that he changed our hotel at the 11th hour. Our driver during the entire trip Mr. Satish ji Rawat is a nice man. He is a friendly and polite person and has no extraordinary demands like other drivers."

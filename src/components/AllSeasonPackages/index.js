@@ -1,7 +1,12 @@
 import React from "react";
 import "./style.css";
 
-const UttarakhandTourPackages = ({ tours, headingData, buttonsData }) => {
+const UttarakhandTourPackages = ({
+  tours,
+  headingData,
+  buttonsData,
+  pacakagebtn,
+}) => {
   return (
     <section id="sec-3" className="section-3">
       <div className="container">
@@ -83,7 +88,7 @@ const UttarakhandTourPackages = ({ tours, headingData, buttonsData }) => {
                 href={headingData.allPackagesLink}
                 className="team-btn decoration-none bold-text"
               >
-                All Uttarakhand Tour Packages
+                {pacakagebtn}
               </a>
             </div>
           </div>

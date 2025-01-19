@@ -5,6 +5,7 @@ import package0 from "../../assets/media/uttarakhand-tours/upcoming-tours/tungna
 import package02 from "../../assets/media/uttarakhand-tours/upcoming-tours/new-year-packages.jpg";
 import package03 from "../../assets/media/uttarakhand-tours/upcoming-tours/kedarkantha-trek.jpg";
 import package04 from "../../assets/media/uttarakhand-tours/upcoming-tours/republic-day-packages.jpg";
+import Carousel from "react-multi-carousel";
 
 const packages = [
   {
@@ -39,6 +40,51 @@ const packages = [
   },
 ];
 
+const carouselSettings = {
+  additionalTransfrom: 0,
+  arrows: false,
+  autoPlay: true,
+  autoPlaySpeed: 3000,
+  centerMode: false, // Disable center mode for consistent sizing
+  className: "",
+  containerClass: "container-r",
+  dotListClass: "",
+  draggable: true,
+  focusOnSelect: false,
+  infinite: true,
+  keyBoardControl: true,
+  minimumTouchDrag: 80,
+  pauseOnHover: true,
+  renderArrowsWhenDisabled: false,
+  renderButtonGroupOutside: false,
+  renderDotsOutside: true,
+  responsive: {
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 4,
+      slidesToSlide: 4,
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 768 },
+      items: 3,
+      slidesToSlide: 3,
+    },
+    mobile: {
+      breakpoint: { max: 768, min: 0 },
+      items: 1,
+      slidesToSlide: 1,
+    },
+  },
+  rewind: false,
+  rewindWithAnimation: false,
+  rtl: false,
+  shouldResetAutoplay: true,
+  showDots: true,
+  itemClass: "carousel-item",
+  // sliderClass: "carousel-slider",
+  swipeable: true,
+};
+
 const UttrakhandTourBanner = () => {
   return (
     <section className="banner">
@@ -72,9 +118,9 @@ const UttrakhandTourBanner = () => {
             </h2>
           </div>
           {/* Upcoming  carousel */}
-          <div className="ro">
-            <div className="col-12">
-              <div>
+          <div className="row card-container">
+            <div className="col-1">
+              <Carousel {...carouselSettings}>
                 {packages.map((pkg, index) => (
                   <div key={index} className="package-item">
                     <div className="package-card">
@@ -101,7 +147,7 @@ const UttrakhandTourBanner = () => {
                     </div>
                   </div>
                 ))}
-              </div>
+              </Carousel>
             </div>
           </div>
         </div>
