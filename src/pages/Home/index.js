@@ -31,7 +31,14 @@ import tourNine from "../../assets/media/uttarakhand-tours/all-season/chopta-aul
 import tourTen from "../../assets/media/uttarakhand-tours/all-season/mussoorie-chopta-kausani-corbett-tour.jpg";
 import tourEleven from "../../assets/media/uttarakhand-tours/all-season/nainital-almora-kausani-corbett-ex-kathgodam.jpg";
 import tourTwelve from "../../assets/media/uttarakhand-tours/all-season/complete-uttarakhand-tour.jpg";
-
+import charDham1 from "../../assets/media/uttarakhand-tours/pilgrimage/char-dham-yatra-ex-dehradun.jpg";
+import charDham2 from "../../assets/media/uttarakhand-tours/pilgrimage/char-dham-yatra-ex-dehradun-in-eleven-days.jpg";
+import charDham3 from "../../assets/media/uttarakhand-tours/pilgrimage/char-dham-yatra-ex-dehradun-in-twelve-days.jpg";
+import charDham4 from "../../assets/media/uttarakhand-tours/pilgrimage/char-dham-yatra-with-tungnath-auli-ex-dehradun-in-thirteen-days.jpg";
+import charDham5 from "../../assets/media/uttarakhand-tours/pilgrimage/char-dham-yatra-from-delhi.jpg";
+import charDham6 from "../../assets/media/uttarakhand-tours/pilgrimage/char-dham-yatra-ex-delhi-in-thirteen-days.jpg";
+import charDham7 from "../../assets/media/uttarakhand-tours/pilgrimage/char-dham-yatra-with-tungnath-auli-ex-delhi-in-fourteen-days.jpg";
+import charDham8 from "../../assets/media/uttarakhand-tours/pilgrimage/char-dham-yatra-with-valley-of-flowers-ex-delhi-in-sixteen-days.jpg";
 const toursData = [
   {
     id: 1,
@@ -217,6 +224,98 @@ const weekEndTourHeadingInfo = {
   buttonLink: "https://devbhumitourism.com/uttarakhand-weekend-tours",
   buttonText: "Explore All Uttarakhand Weekend Tours",
 };
+//=================
+const sectionData = {
+  id: "sec-5",
+  className: "section-3",
+  subHeading:
+    "Unveiling The Spiritual Journey Through The Sacred Char Dham Yatra Pilgrimage Tours",
+  heading: "Plan A Divine And Reverential Char Dham Yatra For 2025",
+  description:
+    "The Great Char Dham Yatra is a spiritual journey that takes you through the revered shrines of Yamunotri, Gangotri, Kedarnath, and Badrinath, nestled in the majestic Himalayas of Uttarakhand. For centuries, saints and pilgrims, in their search for the divine, have walked these mystical values known in ancient Hindu scriptures which are written as ‘Kedarkhand’.",
+  additionalText:
+    "Devbhumi Tourism welcomes all pilgrims on this sacred Himalayan journey which is called the Char Dham Yatra. Check out the below updated Holy Himalayan Char Dham Yatra Packages merged with beautiful nearby destinations which you might not want to miss.",
+  footerText:
+    "Our Char Dham Yatra packages offer a seamless and enriching experience, combining spirituality, adventure, and breathtaking natural beauty. These packages are thoughtfully curated to include comfortable travel, accommodation, guided tours, and essential services, ensuring pilgrims can focus entirely on their spiritual quest.",
+  footerHighlight:
+    "The pilgrim who doesn't have enough time or budget for the Complete Char Dham Yatra, can also plan for an Ek Dham Yatra or Do Dham Yatra tours, you can check the related pilgrimage packages on the below tags.",
+};
+
+const charDhamPackages = [
+  {
+    title: "Traditional Char Dham Yatra",
+    imgSrc: charDham1,
+    altText: "char dham yatra",
+    duration: "09 Nights/10 Days ex Dehradun",
+    url: "https://devbhumitourism.com/tours/char-dham-yatra-from-dehradun-in-ten-days/",
+  },
+  {
+    title: "Char Dham Yatra With Haridwar",
+    imgSrc: charDham2,
+    altText: "char dham",
+    duration: "10 Nights/11 Days ex Dehradun",
+    url: "https://devbhumitourism.com/tours/char-dham-yatra-ex-dehradun-in-eleven-days/",
+  },
+  {
+    title: "Char Dham Yatra With Tungnath",
+    imgSrc: charDham3,
+    altText: "char dham yatra package",
+    duration: "11 Nights/12 Days ex Dehradun",
+    url: "https://devbhumitourism.com/tours/char-dham-yatra-ex-dehradun-in-twelve-days/",
+  },
+  {
+    title: "Char Dham Yatra With Auli",
+    imgSrc: charDham4,
+    altText: "char dham yatra packages",
+    duration: "12 Nights/13 Days ex Dehradun",
+    url: "https://devbhumitourism.com/tours/char-dham-yatra-with-tungnath-auli-ex-dehradun-in-thirteen-days/",
+  },
+  {
+    title: "Traditional Char Dham Yatra",
+    imgSrc: charDham5,
+    altText: "uttarakhand tour",
+    duration: "11 Nights/12 Days ex New Delhi",
+    url: "https://devbhumitourism.com/tours/char-dham-yatra-from-delhi/",
+  },
+  {
+    title: "Char Dham Yatra With Tungnath",
+    imgSrc: charDham6,
+    altText: "uttarakhand tourism",
+    duration: "12 Nights/13 Days ex New Delhi",
+    url: "https://devbhumitourism.com/tours/char-dham-yatra-ex-delhi-in-thirteen-days/",
+  },
+  {
+    title: "Char Dham Yatra With Auli",
+    imgSrc: charDham7,
+    altText: "uttarakhand tourism packages",
+    duration: "13 Nights/14 Days ex New Delhi",
+    url: "https://devbhumitourism.com/tours/char-dham-yatra-with-tungnath-auli-ex-delhi-in-fourteen-days/",
+  },
+  {
+    title: "Char Dham Yatra With VOF",
+    imgSrc: charDham8,
+    altText: "uttarakhand tour packages",
+    duration: "15 Nights/16 Days ex New Delhi",
+    url: "https://devbhumitourism.com/tours/char-dham-yatra-with-valley-of-flowers-ex-delhi-in-sixteen-days/",
+  },
+];
+
+const buttons = {
+  subButtons: [
+    {
+      label: "Ek Dham Yatra Packages",
+      link: "https://devbhumitourism.com/ek-dham-yatra-packages/",
+    },
+    {
+      label: "Do Dham Yatra Packages",
+      link: "https://devbhumitourism.com/do-dham-yatra-packages/",
+    },
+  ],
+  mainButton: {
+    label: "Explore All Char Dham Yatra Packages",
+    link: "https://devbhumitourism.com/char-dham-yatra-packages/",
+  },
+};
 
 export default function HeroSection() {
   return (
@@ -304,9 +403,14 @@ export default function HeroSection() {
       <WeekendGateways
         headingInfo={weekEndTourHeadingInfo}
         tours={weekEndTourData}
+        className={"section-6"}
       />
       <TourPacks />
-      <CharDhamYatra />
+      <CharDhamYatra
+        sectionData={sectionData}
+        packages={charDhamPackages}
+        buttons={buttons}
+      />
       <InquiryForm />
       <AboutUttrakhand />
       <CallbackForm />
