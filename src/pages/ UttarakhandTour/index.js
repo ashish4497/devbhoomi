@@ -14,6 +14,7 @@ import tourNine from "../../assets/media/uttarakhand-tours/all-season/chopta-aul
 import tourTen from "../../assets/media/uttarakhand-tours/all-season/mussoorie-chopta-kausani-corbett-tour.jpg";
 import tourEleven from "../../assets/media/uttarakhand-tours/all-season/nainital-almora-kausani-corbett-ex-kathgodam.jpg";
 import tourTwelve from "../../assets/media/uttarakhand-tours/all-season/complete-uttarakhand-tour.jpg";
+import Footer from "../../components/Footer";
 
 const toursData = [
   {
@@ -128,13 +129,14 @@ const toursData = [
 
 const headingData = {
   subHeading:
-    "From Green Valleys To Snowy Peaks: Book Unforgettable Uttarakhand Travel Experiences At Devbhumi Tourism",
-  mainHeading: "Tailor-Made All Season Uttarakhand Tour Packages For You",
+    "Personalized-All Season Uttarakhand Tour Packages For Every Traveller",
+  mainHeading:
+    "Personalized-All Season Uttarakhand Tour Packages For Every Traveller Hand Crafted-Perfect Uttarakhand Tour Escapes For You",
   description:
-    "One Uttarakhand tour is enough to showcase the magic of the hills. But it is certainly not enough to capture the sheer awesomeness that is this pristine beauty. That is why we have carefully designed a variety of Uttarakhand tours that will take you on epic journeys and create fun memories that will last you a lifetime. Interestingly, Uttarakhand is divided into two regions, including Kumaon and Garhwal. Our Uttarakhand Tour Packages include both these regions which attract throngs of tourists from all over the world. After all, who wouldn’t want to enjoy sightseeing, adventure and wildlife all rolled into one trip? You, too, can experience this! Check out the below All Season Uttarakhand Tour Packages starting from Delhi, Dehradun and so on and leave the rest to us.",
+    "Apart from the Sikh & Hindu pilgrimage Uttarakhand Tours, Uttarakhand facilitates wildlife, skiing, yoga, natural beauty, peaks, rural fascination, rich culture, and picturesque photographic opportunities which can elevate your tour experience. Indulge in the holistic experience of Ayurvedic spas and yoga retreats in the lap of the Himalayas, rejuvenating your mind, body, and soul. With our expertly crafted itineraries, you can customize your Uttarakhand getaway, ensuring a seamless blend of exploration and relaxation. Let the magic of Uttarakhand unfold before you, leaving you with cherished memories of a journey into nature’s embrace. Pick one from the top ten selections or scroll down for the infinite magical possibilities to relish your Uttarakhand tour package.",
   footerDescription:
-    "Dive in the holistic experience of Ayurvedic spas and yoga retreats in the lap of the divine Himalayas, rejuvenating your mind, body, and soul. With our expertly crafted Uttarakhand itineraries, you can customize your Uttarakhand getaway, ensuring a seamless blend of exploration and relaxation. Let the magic of Uttarakhand unfold before you, leaving you with cherished memories of a journey into nature’s embrace. Refine your search for a Uttarakhand tour with the below tags.",
-  allPackagesLink: "https://devbhumitourism.com/uttarakhand-tour-packages/",
+    "Discover the spiritual allure of Rishikesh and Haridwar, where the Ganges River flows with divine energy. Traverse through the picturesque hill stations of Mussoorie and Nainital, offering breathtaking views and charming colonial architecture. For the avid trekker, Uttarakhand unveils a myriad of trails, including the famous Valley of Flowers and the awe-inspiring Roopkund Lake trek.",
+  allPackagesLink: "http://localhost:3000/uttarakhand-tour",
 };
 
 const buttonsData = [
@@ -168,6 +170,7 @@ function UttrakhandTourPage() {
           buttonsData={buttonsData}
           pacakagebtn={pacakagebtn}
         />
+        <Footer />
       </div>
     </div>
   );
