@@ -16,7 +16,7 @@ const WeekendGateways = ({ headingInfo, tours, className }) => {
               {headingInfo.mainHeading}
             </h2>
             <p className="sec-heading-paragraph">
-              {headingInfo.description}
+              <b> {headingInfo.description}</b>
               <span className="hide-mobile">{headingInfo.additionalInfo}</span>
             </p>
           </div>

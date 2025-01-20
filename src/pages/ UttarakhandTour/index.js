@@ -29,6 +29,7 @@ import charDham5 from "../../assets/media/uttarakhand-tours/pilgrimage/char-dham
 import charDham6 from "../../assets/media/uttarakhand-tours/pilgrimage/char-dham-yatra-ex-delhi-in-thirteen-days.jpg";
 import charDham7 from "../../assets/media/uttarakhand-tours/pilgrimage/char-dham-yatra-with-tungnath-auli-ex-delhi-in-fourteen-days.jpg";
 import charDham8 from "../../assets/media/uttarakhand-tours/pilgrimage/char-dham-yatra-with-valley-of-flowers-ex-delhi-in-sixteen-days.jpg";
+import TripAdvisorSection from "../../components/AdvisorTestimonials";
 
 const toursData = [
   {
@@ -171,6 +172,8 @@ const buttonsData = [
     link: "https://devbhumitourism.com/uttarakhand-tour-packages-from-kathgodam/",
   },
 ];
+const pacakagebtn = "Explore All Uttarakhand's All-season Tours";
+
 //  =============================
 const weekEndTourData = [
   {
@@ -310,7 +313,197 @@ const weekEndTourHeadingInfo = {
   buttonText: "Premium Uttarakhand Tour Packages",
 };
 
-const pacakagebtn = "Explore All Uttarakhand's All-season Tours";
+//============ AllUttrakhandWeekEndTourData ====== //
+const AllUttrakhandWeekEndTourData = [
+  {
+    title: "Say Hello To Kumaon",
+    duration: "07 Nights/08 Days - Ex Delhi",
+    image: rishikesh,
+    alt: "uttarakhand tour itinerary",
+    link: "https://devbhumitourism.com/uttarakhand-treks/har-ki-dun-trek/",
+  },
+  {
+    title: "Tehri Chopta Auli Tour",
+    duration: "08 Nights/09 Days - Ex Dehradun",
+    image: corbett,
+    alt: "uttarakhand tour packages",
+    link: "https://devbhumitourism.com/uttarakhand-treks/kedarkantha-trek/",
+  },
+  {
+    title: "Chopta Auli Expedition",
+    duration: "07 Nights/08 Days - Ex Dehradun",
+    image: nainital,
+    alt: "uttarakhand tour package",
+    link: "https://devbhumitourism.com/uttarakhand-treks/valley-of-flowers-trek/",
+  },
+  {
+    title: "Nainital Weekend Tour",
+    duration: "02 Nights/03 Days - Ex New Delhi",
+    image: nainital,
+    link: "https://devbhumitourism.com/tours/nainital-tour/",
+    alt: "uttarakhand tour",
+  },
+];
+
+const AllUttrakhandEeekEndTourHeadingInfo = {
+  subHeading:
+    "Short on Time, Big on Adventure & Yet Serenity Awaits! Check These Unmissable Uttarakhand Weekend Tours",
+  mainHeading: "Discover Uttarakhand's Weekend Gateways and Short Breaks",
+  description:
+    "Its proximity to major cities like Delhi makes it an ideal short escape for nature lovers, adventure enthusiasts, and spiritual seekers. Whether it's the tranquil lakes of Nainital, the adventure sports hub of Rishikesh, or the serene hill station of Mussoorie, Uttarakhand's Destination Expert, Devbhumi Tourism offers a variety of Uttarakhand Tour Packages packed with magical experiences just in a short trip.",
+  additionalInfo:
+    "For those looking to escape the hustle of city life, the state's lush green valleys, snow-capped peaks, and sacred rivers provide the perfect setting for rejuvenation. From trekking in the scenic Himalayas to exploring ancient temples and enjoying wildlife safaris, Uttarakhand promises a refreshing blend of adventure, culture, and natural beauty, all easily accessible over a weekend.",
+  buttonLink: "https://devbhumitourism.com/uttarakhand-weekend-tours",
+  buttonText: "Explore All Uttarakhand WeekEnd Tour ",
+};
+
+//============ 7 Days UttrakhandWeekEnd TourData ====== //
+const sevenDaysToursData = [
+  {
+    id: 1,
+    title: "Explore Garhwal Tour",
+    duration: "08 Nights/09 Days - Ex New Delhi",
+    description:
+      "Discover Haridwar, Mussoorie, Dhanolti, Tehri, Ukhimath, Chopta, Gopeshwar, Joshimath, Auli, Rudraprayag, Devprayag, and Rishikesh.",
+    image: tourOne,
+    link: "https://devbhumitourism.com/tours/explore-garhwal-tour/",
+  },
+  {
+    id: 2,
+    title: "Mesmerising Uttarakhand Tour",
+    duration: "09 Nights/10 Days - Ex New Delhi",
+    description:
+      "Discover Mussoorie, Dhanolti, Tehri, Ukhimath, Chopta, Gopeshwar, Joshimath, Auli, Kausani, Ranikhet, Nainital, and Corbett.",
+    image: tourTwo,
+    link: "https://devbhumitourism.com/tours/mesmerising-uttarakhand-tour/",
+  },
+  {
+    id: 3,
+    title: "Thrilling Uttarakhand Tour",
+    duration: "07 Nights/08 Days - Ex New Delhi",
+    description:
+      "Discover Mussoorie, Rishikesh, Haridwar, Nainital, Bhimtal, Sattal, Bhowali, Almora, Kausani, Ranikhet, and Jim Corbett National Park.",
+    image: tourThree,
+    link: "https://devbhumitourism.com/tours/thrilling-uttarakhand-tour/",
+  },
+  {
+    id: 4,
+    title: "Explore Kumaon Tour",
+    duration: "07 Nights/08 Days - Ex New Delhi",
+    description:
+      "Discover Nainital, Bhimtal, Sattal, Bhowali, Mukteshwar, Almora, Jageshwar, Binsar, Kausani, Ranikhet, and Jim Corbett National Park.",
+    image: tourFour,
+    link: "https://devbhumitourism.com/tours/explore-kumaon-tour/",
+  },
+  {
+    id: 5,
+    title: "Delightful Uttarakhand Tour",
+    duration: "12 Nights/13 Days - Ex New Delhi",
+    description:
+      "Discover Haridwar, Mussoorie, Dhanolti, Tehri, Ukhimath, Chopta, Gopeshwar, Auli, Joshimath, Kausani, Ranikhet, Bhowali, Nainital, and Corbett.",
+    image: tourFive,
+    link: "https://devbhumitourism.com/tours/delightful-uttarakhand-tour/",
+  },
+  {
+    id: 6,
+    title: "Mussoorie Rishikesh Nainital Corbett Tour",
+    duration: "06 Nights/07 Days - Ex New Delhi",
+    description:
+      "Discover Mussoorie, Rishikesh, Haridwar, Nainital, Bhimtal, Sattal, Bhowali, and Corbett National Park.",
+    image: tourSix,
+    link: "https://devbhumitourism.com/tours/mussoorie-rishikesh-nainital-corbett-tour/",
+  },
+  {
+    id: 7,
+    title: "Haridwar Mussoorie Rishikesh Nainital Kausani Corbett Tour",
+    duration: "08 Nights/09 Days - Ex New Delhi",
+    description:
+      "Discover Haridwar, Mussoorie, Rishikesh, Nainital, Almora, Kausani, Ranikhet, and Corbett.",
+    image: tourSeven,
+    link: "https://devbhumitourism.com/tours/haridwar-mussoorie-rishikesh-nainital-kausani-corbett-tour/",
+  },
+  {
+    id: 8,
+    title: "Rishikesh Auli Kausani Corbett Tour",
+    duration: "07 Nights/08 Days - Ex New Delhi",
+    description:
+      "Explore Rishikesh, Haridwar, Auli, Kausani, Corbett National Park, and Nainital.",
+    image: tourEight,
+    link: "https://devbhumitourism.com/tours/rishikesh-auli-kausani-corbett-tour/",
+  },
+  {
+    id: 9,
+    title: "Chopta Auli Tour",
+    duration: "04 Nights/05 Days - Ex Dehradun",
+    description:
+      "Discover magnificent Haridwar, Rishikesh, Devprayag, Ukhimath, Chopta, Gopeshwar, Joshimath, Auli, Rudraprayag, and Srinagar of Garhwal.",
+    image: tourNine,
+    link: "https://devbhumitourism.com/tours/chopta-auli-tour-ex-dehradun/",
+  },
+  {
+    id: 10,
+    title: "Mussoorie Chopta Kausani Corbett Tour",
+    duration: "06 Nights/07 Days - Ex New Delhi",
+    description:
+      "Discover Mussoorie, Dhanolti, Tehri, Rudraprayag, Chopta, Gopeshwar, Kausani, Ranikhet, and Corbett.",
+    image: tourTen,
+    link: "https://devbhumitourism.com/tours/mussoorie-chopta-kausani-corbett-tour/",
+  },
+  {
+    id: 11,
+    title: "Nainital Almora Kausani Corbett Tour",
+    duration: "05 Nights/06 Days - Ex Kathgodam",
+    description:
+      "Discover Nainital, Bhimtal, Sattal, Bhowali, Almora, Kausani, Ranikhet, and Corbett National Park.",
+    image: tourEleven,
+    link: "https://devbhumitourism.com/tours/nainital-almora-kausani-corbett-tour-ex-kathgodam/",
+  },
+  {
+    id: 12,
+    title: "Complete Uttarakhand Tour",
+    duration: "19 Nights/20 Days - Ex New Delhi",
+    description:
+      "Discover Haridwar, Mussoorie, Dhanolti, Tehri, Ukhimath, Chopta, Gopeshwar, Auli, Joshimath, Kausani, Chaukori, Munsiyari, Jageshwar, Bhowali, Nainital, and Corbett.",
+    image: tourTwelve,
+    link: "https://devbhumitourism.com/tours/complete-uttarakhand-tour/",
+  },
+];
+
+const sevenDaysHeadingData = {
+  subHeading:
+    "Nature's Abode Uttarakhand: Get A Magical Journey Through Our Pre-made Uttarakhand Tour Itineraries",
+  mainHeading: "Sorted Uttarakhand Tour Packages By Duration",
+  description:
+    "When planning a tour of Uttarakhand, the duration of your trip plays a key role in determining the itinerary. If you're short on time, a 3-4 day trip could cover popular destinations like Mussoorie, Dehradun, and Rishikesh. These places offer a mix of serene hill stations, waterfalls, and spiritual sites like the Ganga Aarti at Triveni Ghat. For a week-long tour, you can extend your journey to include places like Nainital, Jim Corbett National Park, and Almora, allowing you to explore wildlife, scenic lakes, and cultural heritage. A longer trip of 10-12 days offers the chance to experience the remote beauty of Auli, Kedarnath, or Valley of Flowers, giving you an in-depth glimpse into Uttarakhand’s majestic landscapes, adventure opportunities, and spiritual experiences. Find out below Uttarakhand tours covering a whole week in the lap of the great Himalayas.",
+  footerDescription:
+    "*All the above tours are operational round the year, you can plan them anytime, Yoohoo... For more 7 days Uttarakhand tour packages, hit the below big button.",
+  allPackagesLink: "http://localhost:3000/uttarakhand-tour",
+};
+
+const sevenDaysButtonsData = [
+  {
+    label: "Uttarakhand Tours For 03 Days",
+    link: "#",
+  },
+  {
+    label: "Uttarakhand Tours For 05 Days",
+    link: "#",
+  },
+  {
+    label: "Uttarakhand Tours For 10 Days",
+    link: "#",
+  },
+  {
+    label: "Uttarakhand Tours For 12 Days",
+    link: "#",
+  },
+  {
+    label: "Uttarakhand Tours For 15 Days",
+    link: "#",
+  },
+];
+
+const sevenDaysPacakagebtn = "Uttarakhand Tour Packages For 07 Days";
 function UttrakhandTourPage() {
   return (
     <div>
@@ -333,6 +526,18 @@ function UttrakhandTourPage() {
           buttons={buttons}
         />
         <InquiryForm />
+        <WeekendGateways
+          headingInfo={AllUttrakhandEeekEndTourHeadingInfo}
+          tours={AllUttrakhandWeekEndTourData}
+          className={"section-6"}
+        />
+        <UttarakhandTourPackages
+          tours={sevenDaysToursData}
+          headingData={sevenDaysHeadingData}
+          buttonsData={sevenDaysButtonsData}
+          pacakagebtn={sevenDaysPacakagebtn}
+        />
+        <TripAdvisorSection />
         <Footer />
       </div>
     </div>
