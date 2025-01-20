@@ -39,6 +39,7 @@ import charDham5 from "../../assets/media/uttarakhand-tours/pilgrimage/char-dham
 import charDham6 from "../../assets/media/uttarakhand-tours/pilgrimage/char-dham-yatra-ex-delhi-in-thirteen-days.jpg";
 import charDham7 from "../../assets/media/uttarakhand-tours/pilgrimage/char-dham-yatra-with-tungnath-auli-ex-delhi-in-fourteen-days.jpg";
 import charDham8 from "../../assets/media/uttarakhand-tours/pilgrimage/char-dham-yatra-with-valley-of-flowers-ex-delhi-in-sixteen-days.jpg";
+import { HelicopterYatra } from "../../components/HelicopterYatra";
 const toursData = [
   {
     id: 1,
@@ -411,6 +412,7 @@ export default function HeroSection() {
         packages={charDhamPackages}
         buttons={buttons}
       />
+      <HelicopterYatra />
       <InquiryForm />
       <AboutUttrakhand />
       <CallbackForm />

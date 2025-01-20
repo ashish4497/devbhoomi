@@ -19,7 +19,6 @@ import WeekendGateways from "../../components/WeekendGateways";
 import corbett from "../../assets/media/uttarakhand-tours/treks/kedarkantha-trek.jpg";
 import nainital from "../../assets/media/uttarakhand-tours/treks/valley-of-flowers-trek.jpg";
 import rishikesh from "../../assets/media/uttarakhand-tours/treks/har-ki-dun-trek.jpg";
-import mussoorie from "../../assets/media/uttarakhand-tours/all-season/dehradun-rishikesh-mussoorie-tour.jpg";
 import InquiryForm from "../../components/InquiryForm";
 import CharDhamYatra from "../../components/SpiritualJourney";
 import charDham1 from "../../assets/media/uttarakhand-tours/pilgrimage/char-dham-yatra-ex-dehradun.jpg";
@@ -30,6 +29,7 @@ import charDham5 from "../../assets/media/uttarakhand-tours/pilgrimage/char-dham
 import charDham6 from "../../assets/media/uttarakhand-tours/pilgrimage/char-dham-yatra-ex-delhi-in-thirteen-days.jpg";
 import charDham7 from "../../assets/media/uttarakhand-tours/pilgrimage/char-dham-yatra-with-tungnath-auli-ex-delhi-in-fourteen-days.jpg";
 import charDham8 from "../../assets/media/uttarakhand-tours/pilgrimage/char-dham-yatra-with-valley-of-flowers-ex-delhi-in-sixteen-days.jpg";
+
 const toursData = [
   {
     id: 1,
@@ -200,6 +200,7 @@ const weekEndTourData = [
   {
     title: "Nainital Weekend Tour",
     duration: "02 Nights/03 Days - Ex New Delhi",
+    itinerary: "02N Tehri, 02N Chopta, 02N Auli, 02N Rishikesh",
     image: nainital,
     link: "https://devbhumitourism.com/tours/nainital-tour/",
     alt: "uttarakhand tour",
@@ -321,7 +322,6 @@ function UttrakhandTourPage() {
           buttonsData={buttonsData}
           pacakagebtn={pacakagebtn}
         />
-
         <WeekendGateways
           headingInfo={weekEndTourHeadingInfo}
           tours={weekEndTourData}
@@ -332,7 +332,6 @@ function UttrakhandTourPage() {
           packages={charDhamPackages}
           buttons={buttons}
         />
-
         <InquiryForm />
         <Footer />
       </div>
