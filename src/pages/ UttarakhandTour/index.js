@@ -30,6 +30,7 @@ import charDham6 from "../../assets/media/uttarakhand-tours/pilgrimage/char-dham
 import charDham7 from "../../assets/media/uttarakhand-tours/pilgrimage/char-dham-yatra-with-tungnath-auli-ex-delhi-in-fourteen-days.jpg";
 import charDham8 from "../../assets/media/uttarakhand-tours/pilgrimage/char-dham-yatra-with-valley-of-flowers-ex-delhi-in-sixteen-days.jpg";
 import TripAdvisorSection from "../../components/AdvisorTestimonials";
+import InstantCallBackForm from "../../components/InstantCallBackForm";
 
 const toursData = [
   {
@@ -502,8 +503,111 @@ const sevenDaysButtonsData = [
     link: "#",
   },
 ];
-
 const sevenDaysPacakagebtn = "Uttarakhand Tour Packages For 07 Days";
+//=========Treak tour Pacakages ===============
+//===========================
+const treakTouSectionData = {
+  id: "sec-5",
+  className: "section-3",
+  subHeading:
+    "Get Introduced To Divine Char Dham And Dive In Your Spiritual Self!",
+  heading: "Discover Divine: The Char Dham Yatra Unveiled",
+  description:
+    "Up in the misty heights of the majestic Garhwal Himalayas that adorn the magnificent state of Uttarakhand, awaits a rejuvenating spiritual experience for the devout. Nestling in the lofty Peaks is the four most holy pilgrimages of India, well known as Yamunotri, Gangotri, Kedarnath, and Badrinath. Collectively called the Char Dham (or four pilgrimage centres) of Hinduism. For centuries, saints and pilgrims, in their search for the divine, have walked these mystical values known in ancient Hindu scriptures which are written as ‘Kedarkhand’. Devbhumi Tourism welcomes all pilgrims on this sacred Himalayan journey called the Char Dham Yatra for 2025. Check out the below updated Char Dham Yatra’s 10/12 days long ground tours and details customised according to pilgrims who want to start their journey either from Delhi, Haridwar, Rishikesh, or from Dehradun.",
+};
+
+const treakTourPackages = [
+  {
+    title: "Traditional Char Dham Yatra",
+    imgSrc: charDham1,
+    altText: "char dham yatra",
+    duration: "09 Nights/10 Days ex Dehradun",
+    url: "https://devbhumitourism.com/tours/char-dham-yatra-from-dehradun-in-ten-days/",
+  },
+  {
+    title: "Char Dham Yatra With Haridwar",
+    imgSrc: charDham2,
+    altText: "char dham",
+    duration: "10 Nights/11 Days ex Dehradun",
+    url: "https://devbhumitourism.com/tours/char-dham-yatra-ex-dehradun-in-eleven-days/",
+  },
+  {
+    title: "Char Dham Yatra With Tungnath",
+    imgSrc: charDham3,
+    altText: "char dham yatra package",
+    duration: "11 Nights/12 Days ex Dehradun",
+    url: "https://devbhumitourism.com/tours/char-dham-yatra-ex-dehradun-in-twelve-days/",
+  },
+  {
+    title: "Char Dham Yatra With Auli",
+    imgSrc: charDham4,
+    altText: "char dham yatra packages",
+    duration: "12 Nights/13 Days ex Dehradun",
+    url: "https://devbhumitourism.com/tours/char-dham-yatra-with-tungnath-auli-ex-dehradun-in-thirteen-days/",
+  },
+  {
+    title: "Traditional Char Dham Yatra",
+    imgSrc: charDham5,
+    altText: "uttarakhand tour",
+    duration: "11 Nights/12 Days ex New Delhi",
+    url: "https://devbhumitourism.com/tours/char-dham-yatra-from-delhi/",
+  },
+  {
+    title: "Char Dham Yatra With Tungnath",
+    imgSrc: charDham6,
+    altText: "uttarakhand tourism",
+    duration: "12 Nights/13 Days ex New Delhi",
+    url: "https://devbhumitourism.com/tours/char-dham-yatra-ex-delhi-in-thirteen-days/",
+  },
+  {
+    title: "Char Dham Yatra With Auli",
+    imgSrc: charDham7,
+    altText: "uttarakhand tourism packages",
+    duration: "13 Nights/14 Days ex New Delhi",
+    url: "https://devbhumitourism.com/tours/char-dham-yatra-with-tungnath-auli-ex-delhi-in-fourteen-days/",
+  },
+  {
+    title: "Char Dham Yatra With VOF",
+    imgSrc: charDham8,
+    altText: "uttarakhand tour packages",
+    duration: "15 Nights/16 Days ex New Delhi",
+    url: "https://devbhumitourism.com/tours/char-dham-yatra-with-valley-of-flowers-ex-delhi-in-sixteen-days/",
+  },
+];
+
+const treakTouButtons = {
+  subButtons: [
+    {
+      label: "Do Dham Yatra Packages",
+      link: "https://devbhumitourism.com/do-dham-yatra-packages/",
+    },
+    {
+      label: "Ek Dham Yatra Packages",
+      link: "https://devbhumitourism.com/ek-dham-yatra-packages/",
+    },
+    {
+      label: "All Char Dham Yatra Packages",
+      link: "https://devbhumitourism.com/char-dham-yatra-packages/",
+    },
+    {
+      label: " Char Dham Yatra Helicopter Packages",
+      link: "https://devbhumitourism.com/char-dham-yatra-packages/",
+    },
+  ],
+};
+
+const treakTouHeadingInfo = {
+  subHeading:
+    "Nature's Abode Uttarakhand: Get A Magical Journey Through Our Pre-made Uttarakhand Tour Itineraries",
+  mainHeading: "Leisure At Peak: Premium Uttarakhand Tour Experiences",
+  description:
+    "Its proximity to major cities like Delhi makes it an ideal short escape for nature lovers, adventure enthusiasts, and spiritual seekers. Whether it's the tranquil lakes of Nainital, the adventure sports hub of Rishikesh, or the serene hill station of Mussoorie, Uttarakhand's Destination Expert, Devbhumi Tourism offers a variety of Uttarakhand Tour Packages packed with magical experiences just in a short trip.",
+  additionalInfo:
+    "Our premium Uttarakhand tour packages are super relaxing tours, designed to immerse you in the natural beauty and spiritual richness of this enchanting region. Here we put rejuvenation in a peaceful retreat, thrilling experiences in the great outdoors, and a chance to explore ancient temples and vibrant local culture of Uttarakhand. This vibrant state has something special for everyone, join us as we guide you through this majestic land, where every moment is a step toward relaxation and peace.",
+  buttonLink: "https://devbhumitourism.com/uttarakhand-weekend-tours",
+  buttonText: "Premium Uttarakhand Tour Packages",
+};
+
 function UttrakhandTourPage() {
   return (
     <div>
@@ -531,6 +635,12 @@ function UttrakhandTourPage() {
           tours={AllUttrakhandWeekEndTourData}
           className={"section-6"}
         />
+        <WeekendGateways
+          headingInfo={treakTouHeadingInfo}
+          tours={weekEndTourData}
+          className={"section-02"}
+        />
+        <InstantCallBackForm />
         <UttarakhandTourPackages
           tours={sevenDaysToursData}
           headingData={sevenDaysHeadingData}

@@ -1,0 +1,7 @@
+section.search-tour {
+  padding: 50px 0;
+  background-color: var(--light-yellow-color);
+}
+.search-form label {
+  color: #000;
+}
