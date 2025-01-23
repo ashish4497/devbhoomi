@@ -4,8 +4,8 @@ import UttrakhandTourPage from "./pages/ UttarakhandTour";
 import HeroSection from "./pages/Home";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import $ from "jquery";
-window.$ = $;
+import { CharDhamYatra } from "./pages/CharDhamYatra";
+
 function App() {
   return (
     <>
@@ -14,6 +14,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HeroSection />} />
           <Route path="/uttarakhand-tour" element={<UttrakhandTourPage />} />
+          <Route path="/char-dham-yatra" element={<CharDhamYatra />} />
         </Routes>
       </Router>
     </>
