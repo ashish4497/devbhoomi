@@ -31,6 +31,8 @@ import charDham7 from "../../assets/media/uttarakhand-tours/pilgrimage/char-dham
 import charDham8 from "../../assets/media/uttarakhand-tours/pilgrimage/char-dham-yatra-with-valley-of-flowers-ex-delhi-in-sixteen-days.jpg";
 import TripAdvisorSection from "../../components/AdvisorTestimonials";
 import InstantCallBackForm from "../../components/InstantCallBackForm";
+import { AccordionContainer } from "../../components/FAQ";
+import Accordion from "../../components/Accordian";
 
 const toursData = [
   {
@@ -647,7 +649,10 @@ function UttrakhandTourPage() {
           buttonsData={sevenDaysButtonsData}
           pacakagebtn={sevenDaysPacakagebtn}
         />
+
         <TripAdvisorSection />
+        <AccordionContainer />
+
         <Footer />
       </div>
     </div>

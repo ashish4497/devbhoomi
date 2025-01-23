@@ -1,0 +1,41 @@
+.accordion {
+  border: 1px solid #ddd;
+  margin: 10px;
+}
+
+.accordion-item {
+  border-bottom: 1px solid #ddd;
+}
+
+.accordion-item-header {
+  padding: 15px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.accordion-item-header img {
+width: 20px;
+height: 20px;
+transition: transform 0.3s ease;
+}
+.accordion-item-header img.open {
+transform: rotate(180deg);
+}
+.accordion-item-body {
+padding: 15px;
+}
+.accordion-item-body .accordion-content p {
+  margin-bottom: 10px
+}
+.accordion-item-body .accordion-content h4, .accordion-item-body .accordion-content h5 {
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.row.mt-20{
+margin-top: 20px;
+}
+
+#tour-faq {
+  padding: 50px 0;
+}
