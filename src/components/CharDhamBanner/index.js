@@ -1,4 +1,9 @@
 import React from "react";
+import "./style.css";
+import pacakageOne from "../../assets/media/uttarakhand-tours/pilgrimage/char-dham-yatra-ex-dehradun.jpg";
+import pacakageTwo from "../../assets/media/uttarakhand-tours/pilgrimage/char-dham-yatra-from-delhi.jpg";
+import pacakgeThree from "../../assets/media/uttarakhand-tours/pilgrimage/char-dham-yatra-ex-dehradun-in-eleven-days.jpg";
+import pacackgeFour from "../../assets/media/uttarakhand-tours/pilgrimage/char-dham-yatra-ex-delhi-in-thirteen-days.jpg";
 
 const PackageItem = ({
   href,
@@ -73,7 +78,7 @@ const CharDhamBanner = () => {
                 {/* Item 9 */}
                 <PackageItem
                   href="https://devbhumitourism.com/tours/char-dham-yatra-from-dehradun-in-ten-days/"
-                  imgSrc="../assets/media/uttarakhand-tours/pilgrimage/char-dham-yatra-ex-dehradun.jpg"
+                  imgSrc={pacakageOne}
                   alt="char dham yatra"
                   title="Traditional Char Dham Yatra"
                   duration="09 Nights/10 Days ex Dehradun"
@@ -83,7 +88,7 @@ const CharDhamBanner = () => {
                 {/* Item 4 */}
                 <PackageItem
                   href="https://devbhumitourism.com/tours/char-dham-yatra-from-delhi-in-twelve-days/"
-                  imgSrc="assets/media/uttarakhand-tours/pilgrimage/char-dham-yatra-from-delhi.jpg"
+                  imgSrc={pacakageTwo}
                   alt="char dham yatra packages"
                   title="Traditional Char Dham Yatra"
                   duration="11 Nights/12 Days ex New Delhi"
@@ -93,7 +98,7 @@ const CharDhamBanner = () => {
                 {/* Item 1 */}
                 <PackageItem
                   href="https://devbhumitourism.com/tours/char-dham-yatra-ex-dehradun-in-eleven-days/"
-                  imgSrc="assets/media/uttarakhand-tours/pilgrimage/char-dham-yatra-ex-dehradun-in-eleven-days.jpg"
+                  imgSrc={pacakgeThree}
                   alt="char dham"
                   title="Char Dham Yatra With Haridwar"
                   duration="10 Nights/11 Days ex Dehradun"
@@ -103,7 +108,7 @@ const CharDhamBanner = () => {
                 {/* Item 5 */}
                 <PackageItem
                   href="https://devbhumitourism.com/tours/char-dham-yatra-ex-delhi-in-thirteen-days/"
-                  imgSrc="assets/media/uttarakhand-tours/pilgrimage/char-dham-yatra-ex-delhi-in-thirteen-days.jpg"
+                  imgSrc={pacackgeFour}
                   alt="uttarakhand tourism"
                   title="Char Dham Yatra With Tungnath"
                   duration="12 Nights/13 Days ex New Delhi"
@@ -115,6 +120,16 @@ const CharDhamBanner = () => {
           </div>
         </div>
         <div className="space-50"></div>
+        <div class="row">
+          <div class="col-12 d-flex justify-center">
+            <a
+              href="https://devbhumitourism.com/char-dham-yatra-packages/"
+              class="big-button-yellow hover-dark decoration-none semi-bold-text mt-20"
+            >
+              Explore All Char Dham Yatra Packages
+            </a>
+          </div>
+        </div>
       </div>
     </section>
   );
