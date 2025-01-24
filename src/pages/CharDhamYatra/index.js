@@ -5,6 +5,7 @@ import InquiryForm from "../../components/InquiryForm";
 import KnowAboutHimalyan from "../../components/KnowAboutHimalyan";
 import BestSeasonDuration from "../../components/BestSeasonDuration";
 import CallbackForm from "../../components/CallbackForm";
+import WorthyAttaractions from "../../components/WorthyAttaractions";
 
 export const CharDhamYatra = () => {
   return (
@@ -13,6 +14,7 @@ export const CharDhamYatra = () => {
       <KnowAboutHimalyan />
       <BestSeasonDuration />
       <CallbackForm />
+      <WorthyAttaractions />
       <InquiryForm />
       <Footer />
     </div>
