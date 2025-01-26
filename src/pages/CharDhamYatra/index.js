@@ -6,6 +6,9 @@ import KnowAboutHimalyan from "../../components/KnowAboutHimalyan";
 import BestSeasonDuration from "../../components/BestSeasonDuration";
 import CallbackForm from "../../components/CallbackForm";
 import WorthyAttaractions from "../../components/WorthyAttaractions";
+import UttarakhandBlogsSection from "../../components/TourArticles";
+import TripAdvisorSection from "../../components/AdvisorTestimonials";
+import Accordion from "../../components/Accordian";
 
 export const CharDhamYatra = () => {
   return (
@@ -16,6 +19,9 @@ export const CharDhamYatra = () => {
       <CallbackForm />
       <WorthyAttaractions />
       <InquiryForm />
+      <Accordion />
+      <TripAdvisorSection />
+      <UttarakhandBlogsSection />
       <Footer />
     </div>
   );
