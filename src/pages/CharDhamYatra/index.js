@@ -8,7 +8,7 @@ import CallbackForm from "../../components/CallbackForm";
 import WorthyAttaractions from "../../components/WorthyAttaractions";
 import UttarakhandBlogsSection from "../../components/TourArticles";
 import TripAdvisorSection from "../../components/AdvisorTestimonials";
-import Accordion from "../../components/Accordian";
+import { CharDhamYatraFAQ } from "../../components/CharDhamYatraFAQ";
 
 export const CharDhamYatra = () => {
   return (
@@ -19,7 +19,7 @@ export const CharDhamYatra = () => {
       <CallbackForm />
       <WorthyAttaractions />
       <InquiryForm />
-      <Accordion />
+      <CharDhamYatraFAQ />
       <TripAdvisorSection />
       <UttarakhandBlogsSection />
       <Footer />
